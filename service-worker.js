@@ -2,6 +2,7 @@ var files = [
   "/Final/pwa/index.html",
   "/Final/pwa/manifest.json",
   "/Final/styles/inline.css"
+  "/Final/css/bootstrap.min.css"
 ];
 // dev only
 if (typeof files == 'undefined') {
