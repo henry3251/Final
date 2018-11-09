@@ -11,7 +11,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'final';
+var CACHE_NAME = '878787';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
