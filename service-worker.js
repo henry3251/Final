@@ -1,7 +1,7 @@
 var files = [
-  "/Final/index.html",
-  "/Final/manifest.json",
-  "/Final/styles/inline.css"
+  "/Final/pwa/index.html",
+  "/Final/pwa/manifest.json",
+  "/Final/pwa/styles/inline.css"
 ];
 // dev only
 if (typeof files == 'undefined') {
@@ -10,7 +10,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'Final';
+var CACHE_NAME = 'final';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
